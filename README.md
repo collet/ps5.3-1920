@@ -5,10 +5,10 @@
 
 ## Pedagogical Objectives
 
-  1. Integrate a project framework with legacy artefacts that are not under your control;
-  2. Improve your _programming-in-the-small_ skills;
+  1. Integrate a project with legacy artefacts that are not under your control;
+  2. Improve your _programming-in-the-small_ skills while not forgetting the good principles you now follow;
   3. Deliver as fast as possible; 
-  4. Discover continuous integration; 
+  4. Analyse the performance of several solutions you develop and improve.
 
 ## Project Summary
 
