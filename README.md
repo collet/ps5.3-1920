@@ -3,14 +3,14 @@
   * Timeframe: 16/12/2019 → 22/12/2019
   * Staff: Philippe Collet, Mathias Cousté, Johann Mortara
 
-## Objectifs pédagogiques
+## Pedagogical Objectives
 
   1. Integrate a project framework with legacy artefacts that are not under your control;
   2. Improve your _programming-in-the-small_ skills;
   3. Deliver as fast as possible; 
   4. Discover continuous integration; 
 
-## Résumé du projet
+## Project Summary
 
 Your client, Hubert, TODO
 
@@ -19,7 +19,7 @@ Your client, Hubert, TODO
   - [Benchmark your code and the different solutions you provide and improve](./bench/readme.md)  
   - [Write a report](./report/readme.md)
 
-## Timeline 
+## Timeline & Deliveries
 
   - Monday:
     - 08:00: Kick-off presentation (amphitheater)
