@@ -12,8 +12,6 @@
 
 ## Project Summary
 
-Your client, Hubert, TODO
-
   - [Understand the subject](./subject/README.md)  
   - [Develop and improve a solution](./code/README.md)
   - [Benchmark your code and the different solutions you provide and improve](./bench/README.md)  
@@ -30,7 +28,7 @@ Your client, Hubert, TODO
     - 16:00: Automated clone/compile/exec for tag `REL2`
   - Wednesday: 
     - 16:00: Automated clone/compile/exec for tag `REL3`
-  - Thurdsay:
+  - Thursday:
     - During the day: Demonstrations
   - Friday: 
     - 12:00: Automated clone/compile/exec for tag `REL4`
