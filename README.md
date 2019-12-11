@@ -12,8 +12,6 @@
 
 ## Project Summary
 
-Your client, Hubert, TODO
-
   - [Understand the subject](./subject/README.md)  
   - [Develop and improve a solution](./code/README.md)
   - [Benchmark your code and the different solutions you provide and improve](./bench/README.md)  
