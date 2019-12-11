@@ -28,7 +28,7 @@
     - 16:00: Automated clone/compile/exec for tag `REL2`
   - Wednesday: 
     - 16:00: Automated clone/compile/exec for tag `REL3`
-  - Thurdsay:
+  - Thursday:
     - During the day: Demonstrations
   - Friday: 
     - 12:00: Automated clone/compile/exec for tag `REL4`
