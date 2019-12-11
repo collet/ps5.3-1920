@@ -1,7 +1,4 @@
-# Final Project
-
-### December 2019
-#### Philippe Collet, Mathias Cousté & Johann Mortara
+# Subject
 
 ## Introduction
 
@@ -15,7 +12,7 @@ In this problem, we’ll be looking at how a fleet of self-driving vehicles can 
 
 Given a list of pre-booked rides in a city and a fleet of self-driving vehicles, assign the rides to vehicles, so that riders get to their destinations on time.
 
-For every ride that finishes on time (or early), you will earn points proportional to the distance of that ride; plus an additional bonus if the ride also started precisely on time, minus a constant fee and a fee proportional to the distance of that ride.
+For every ride that finishes on time (or early), you will earn a fixed number of points; plus points proportional to the distance of that ride; plus an additional bonus if the ride also started precisely on time.
 
 ## Problem description
 
@@ -154,7 +151,7 @@ In order for the submission to be accepted, it must follow the format requiremen
 
 ### Scoring
 
-Each ride completed before its latest finish earns the number of points equal to the distance between the start intersection and the finish intersection, minus the constant fee, minus the distance fee times the ride’s distance.
+Each ride completed before its latest finish earns the number of points equal to the ride's distance (distance between the start intersection and the finish intersection) times the distance fee, plus a constant fee, plus a bonus if the ride finishes on time.
 
 Additionally, each ride which started exactly in its earliest allowed start step gets an additional timeliness bonus of B.
 
@@ -164,12 +161,12 @@ For example , with the example input file and the example submission file above,
 
 > Vehicle 0 handles one ride:
 > - ride 0, start at step 2, finish at step 6.
->   - Earns points: 2 (bonus) + 4*1 (distance points * distance fee) + 0 (constant fee) = 6
+>   - Earns points: 4*1 (distance points * distance fee) + 0 (constant fee) + 2 (bonus) = 6
 > 
 > Vehicle 1 handle two rides:
 > - ride 2, start at step 2, finish at step 4.
->   - Earns points: 0 (no bonus) + 2*1 (distance points * distance fee) + 0 (constant fee) = 2
+>   - Earns points: 2*1 (distance points * distance fee) + 0 (constant fee) + 0 (no bonus) = 2
 > - ride 1, start at step 5, finish at step 7.
->   - Earns points: 0 (no bonus) + 2*1 (distance points * distance fee) + 0 (constant fee) = 2
+>   - Earns points: 2*1 (distance points * distance fee) + 0 (constant fee) + 0 (no bonus) = 2
 > 
 > The total score for this submission is 6 + 2 + 2 = 10.

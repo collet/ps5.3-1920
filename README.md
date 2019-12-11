@@ -14,10 +14,10 @@
 
 Your client, Hubert, TODO
 
-  - [Understand the subject](./subject/readme.md)  
-  - [Develop and improve a solution](./code/readme.md)
-  - [Benchmark your code and the different solutions you provide and improve](./bench/readme.md)  
-  - [Write a report](./report/readme.md)
+  - [Understand the subject](./subject/README.md)  
+  - [Develop and improve a solution](./code/README.md)
+  - [Benchmark your code and the different solutions you provide and improve](./bench/README.md)  
+  - [Write a report](./report/README.md)
 
 ## Timeline & Deliveries
 
