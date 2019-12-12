@@ -120,13 +120,13 @@ The finish intersection is always different from the start intersection (the two
 | `2 0 2 2 0 9     ` | ride from [2,0] to [2,2], earliest start 0, latest finish 9                                  |
 
 
-## Submission
+## Output
 
-At the end of your execution, you must output a submission file.
+At the end of your execution, you must produce an output file.
 
 ### File format
 
-The submission file must contain:
+The output file must contain:
 - C – The total score of the solution (calculation details explained below)
 - F lines, one for each vehicle in the fleet.
 
@@ -137,7 +137,7 @@ Each line describing the rides of a vehicle must contain the following integers 
 **Any ride can be assigned to a vehicle at most once.** That is, it is not allowed to assign the same ride to two or more different vehicles. It is also not allowed to assign the same ride to one vehicle more than once.
 It is not required to assign all rides to vehicles – some rides can be skipped.
 
-#### Submission file example
+#### Output file example
 
 | Line    | Description                               |
 |---------|-------------------------------------------|
@@ -155,9 +155,9 @@ Each ride completed before its latest finish earns the number of points equal to
 
 Additionally, each ride which started exactly in its earliest allowed start step gets an additional timeliness bonus of B.
 
-The total score of the submission is the sum of all points earned by all rides completed by all vehicles.
+The total score is the sum of all points earned by all rides completed by all vehicles.
 
-For example , with the example input file and the example submission file above, there are two vehicles.
+For example, with the example input file and the example submission file above, there are two vehicles.
 
 > Vehicle 0 handles one ride:
 > - ride 0, start at step 2, finish at step 6.
