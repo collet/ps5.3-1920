@@ -24,7 +24,7 @@
     - 10:00: All teams declared __properly__ in GitHub Classroom
     - 20:00: Automated clone/compile/exec for tag `REL1`
   - Tuesday:
-    - 13:15: Q&A (amphitheater) ???
+    - morning or when needed: Q&A (amphitheater)
     - 16:00: Automated clone/compile/exec for tag `REL2`
   - Wednesday: 
     - 16:00: Automated clone/compile/exec for tag `REL3`
