@@ -1,4 +1,4 @@
-# Develop and improve a solution
+# Develop, benchmark, and improve a solution
 
 Here are some key points on what you have to do to achieve the project.
 
@@ -28,6 +28,40 @@ For each output, the result for each file is given as follow:
 - `<nb_input> ok <score>`: the output file for input `nb_input` is well-formatted and the calculated score, `score`, is correct.
 - `<nb_input> nok 1`: the output file for input `nb_input` is well-formatted but the calculated score is incorrect.
 - `<nb_input> nok 2`: the output file for input `nb_input` is not well-formatted.
+
+## Benchmarks
+
+Remember that the idea here is to gather factual information about the performance of your solution. We need to measure and analyse the behaviour of the different methods you propose and improve at the non-functional (_e.g._, the average execution time) level.
+  
+### Performance Benchmark
+
+You must at least decompose the execution time in three: (i) _parsing_, (ii) _computing_ and (iii) _outputing_ the solution.
+
+To compute accurate measure, you must not consider a single execution of your program, as the JVM needs time to warm-up and uses internal optimisations that might interfere with your code. 
+
+Students are encouraged to use the [JMH](https://openjdk.java.net/projects/code-tools/jmh/) framework to address this issue and automate benchmarks.
+
+If you are not confident enough in your skills to use JMH (actually it is more simple than it looks like), it is perfectly fine to use the following method to approximate a reasonable average execution time:
+
+  1. Execute `N` times (`N` being in [10,100]) your code on a given dataset;
+  2. For each execution, collect the associated execution time;
+  3. Remove the min and max values;
+  4. Compute the average execution time with the `N-2` remaining values.
+
+But it s clear that JMH will give you way more accurate results than this method.
+
+**It is up to you to find the right graphical representation to present your non-functional benchmark to your customer (bar chart, moustache box, point cloud, ...).**
+
+### JMH usage
+
+[Examples](http://hg.openjdk.java.net/code-tools/jmh/file/tip/jmh-samples/src/main/java/org/openjdk/jmh/samples/) are available to help you kickstart and [understand how things work](http://blog.soat.fr/2015/07/benchmark-java-jmh-fine-tuning/).
+
+Writing benchmarks can be difficult and [some pitfalls must be avoided](https://www.oracle.com/technical-resources/articles/java/architect-benchmarking.html). The following research paper describes clearly those pitfalls and how to avoid them. It is easily readable and understandable as really focused on a problem/solution approach.
+
+> [Automatic Microbenchmark Generation to Prevent Dead
+Code Elimination and Constant Folding](http://diversify-project.eu/papers/rodriguez-cancio16.pdf) - _<span style="font-size: 0.7em;">Rodriguez-Cancio, Marcelino, Benoit Combemale, and Benoit Baudry. "Automatic microbenchmark generation to prevent dead code elimination and constant folding." Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering. ACM, 2016.</span>_
+
+
 
 ## Roadmap of deliveries
 

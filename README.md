@@ -14,8 +14,7 @@
 ## Project Summary
 
   - [Understand the subject](./subject/README.md)  
-  - [Develop and improve a solution](./code/README.md)
-  - [Benchmark your code and the different solutions you provide and improve](./bench/README.md)  
+  - [Develop, benchmark, and improve a solution](./code/README.md)
   - [Write a report](./report/README.md)
 
 ## Timeline & Deliveries
