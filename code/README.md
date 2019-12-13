@@ -11,7 +11,7 @@ You have to be able to:
 - print a _valid_ output file on the **standard output**
 - use the [benchmarking](../bench/README.md) to evaluate the quality of your solutions
 
-You may use the 5 input files located in the `<directory>` directory.
+You may use the 5 input files located in the `input_files` directory at the root of your repository.
 
 ## Delivery process
 
