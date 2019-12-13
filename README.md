@@ -2,6 +2,7 @@
 
   * Timeframe: 16/12/2019 → 22/12/2019
   * Staff: Philippe Collet, Mathias Cousté, Johann Mortara
+  * [Kick-off slides](./09_ps5.3-1920.pdf)
 
 ## Pedagogical Objectives
 
