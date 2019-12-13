@@ -39,7 +39,7 @@
 
 ## Technological Stack
 
-  * Version control: Git (+ github classroom)
+  * Version control: Git (+ GitHub classroom)
   * Programming language: Java 11
   * Unit tests: JUnit (4.12, 5.5)
   * Benchmarks: JMH
@@ -59,7 +59,7 @@ We use Slack for discussions (strict "no email" policy), particularly the `#si3-
 
 > Will the input file always be valid?
 
-Yes for the automatic referee, but you could create you own files for benchmarking purpose and then error should be yielded. Anyway start simple.
+Yes for the automatic referee, but you could create your own files for benchmarking purpose and then error should be yielded. Anyway start simple.
 
 > Do we need to parse entirely the input file?
 

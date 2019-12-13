@@ -5,21 +5,22 @@ Here are some key points on what you have to do to achieve the project.
 _NB: the list below is not exhaustive :)_
 
 You have to be able to:
-- parse the input file
+- read the input file on the **standard input**
 - assign rides to vehicles
 - calculate the score for each ride
-- generate a _valid_ output file
+- print a _valid_ output file on the **standard output**
 - use the [benchmarking](../bench/README.md) to evaluate the quality of your solutions
 
+You may use the 5 input files located in the `<directory>` directory.
 
 ## Delivery process
 
-5 input files are located in the `<directory>` directory.
-For each input file named `inputX.in`, you must produce **exactly one** output file named `outputX.out`.
-
-For each delivery, a script will take your output files for all inputs and check:
-- the formatting of your output files
-- the correctness of your score
+For each delivery, a script will:
+1. Build your solution: `mvn clean package`
+1. For each input file:
+    1. execute your solution: `mvn exec:java` 
+    1. check the formatting of the output file
+    1. check the correctness of the score
 
 The results of the delivery will be displayed [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 For each output, the result for each file is given as follow:
