@@ -50,7 +50,7 @@ If you are not confident enough in your skills to use JMH (actually it is more s
 
 But it s clear that JMH will give you way more accurate results than this method.
 
-**It is up to you to find the right graphical representation to present your non-functional benchmark to your customer (bar chart, moustache box, point cloud, ...).**
+**It is up to you to find the right graphical representation to present your non-functional benchmark to your customer (bar chart, moustache box, point cloud, ...), and to start with, google, as often, is your friend...**
 
 ### JMH usage
 
@@ -61,15 +61,22 @@ Writing benchmarks can be difficult and [some pitfalls must be avoided](https://
 > [Automatic Microbenchmark Generation to Prevent Dead
 Code Elimination and Constant Folding](http://diversify-project.eu/papers/rodriguez-cancio16.pdf) - _<span style="font-size: 0.7em;">Rodriguez-Cancio, Marcelino, Benoit Combemale, and Benoit Baudry. "Automatic microbenchmark generation to prevent dead code elimination and constant folding." Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering. ACM, 2016.</span>_
 
+## On the setup
 
+Once your create the project into the provided github classroom, the project is already setup with a maven pom.xml file and directories:
+
+- the pom.xml contains last dependencies for JUnit, Mockito, and JMH. It also contains an exec-plugin specific setup that enables to:
+     - run the main program with `mvn exec:java@run` (run is the id of the execution configuration)
+     - run a JMH benchmark example with `mvn exec:exec@bench` (bench is the id, but we use `exec:exec` so to have a proper classpath management when forking the JVM for benchmarking
 
 ## Roadmap of deliveries
 
 In order to help you to measure your progression during the week, here is an example of _"ideal"_ progression:
 
-- Monday: TODO
-- Tuesday: TODO
-- Wednesday: TODO
-- Thursday: TODO
-- Friday: TODO
-- Saturday: TODO
+- Monday: project setup, problem analysis, read/write with no or ultra-naive solution
+- Tuesday: benchmark setup over a solution, first solution, thinking about what and how to display benchmarks, starting report no to forget things
+- Wednesday: better benchmarks with better solutions, think about how to be better, demo preparation
+- Thursday: demo, demo feedback analysis, improvements
+- Friday: improvements, benchmark analysis (rince and repeat), report
+- Saturday: triple checking before final delivery of code, report
+- Sunday: report polishing, pre-christmas chill
