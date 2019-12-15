@@ -19,7 +19,7 @@ For each delivery, a script will:
 
 1. Build your solution: `mvn clean package`
 1. For each input file:
-    1. execute your solution through `mvn exec:java` injecting the input file as stdin and storing the stdout in an output file
+    1. execute your solution through `mvn exec:java@run` injecting the input file as stdin and storing the stdout in an output file
     1. check the formatting of the output file
     1. check the correctness of the score
 
@@ -67,7 +67,7 @@ Code Elimination and Constant Folding](http://diversify-project.eu/papers/rodrig
 Once your create the project into the provided github classroom, the project is already setup with a maven pom.xml file and directories:
 
 - the pom.xml contains last dependencies for JUnit, Mockito, and JMH. It also contains an exec-plugin specific setup that enables to:
-     - run the main program with `mvn exec:java`
+     - run the main program with `mvn exec:java@run`
      - run a JMH benchmark example with `mvn exec:exec@bench`. `bench` is the id of the configuration execution, but we use `exec:exec` so to have a proper classpath management when forking the JVM for benchmarking. You could copy this configuration and add new ids for several benchmarks to be executable separately.
 - the rest of the project is some example code in the template, you should remove it.
 
