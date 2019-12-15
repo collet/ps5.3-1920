@@ -62,13 +62,14 @@ Writing benchmarks can be difficult and [some pitfalls must be avoided](https://
 > [Automatic Microbenchmark Generation to Prevent Dead
 Code Elimination and Constant Folding](http://diversify-project.eu/papers/rodriguez-cancio16.pdf) - _<span style="font-size: 0.7em;">Rodriguez-Cancio, Marcelino, Benoit Combemale, and Benoit Baudry. "Automatic microbenchmark generation to prevent dead code elimination and constant folding." Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering. ACM, 2016.</span>_
 
-## On the setup
+## On the default setup
 
 Once your create the project into the provided github classroom, the project is already setup with a maven pom.xml file and directories:
 
 - the pom.xml contains last dependencies for JUnit, Mockito, and JMH. It also contains an exec-plugin specific setup that enables to:
-     - run the main program with `mvn exec:java` (run is the id of the execution configuration)
+     - run the main program with `mvn exec:java`
      - run a JMH benchmark example with `mvn exec:exec@bench`. `bench` is the id of the configuration execution, but we use `exec:exec` so to have a proper classpath management when forking the JVM for benchmarking. You could copy this configuration and add new ids for several benchmarks to be executable separately.
+- the rest of the project is some example code in the template, you should remove it.
 
 ## Roadmap of deliveries
 
