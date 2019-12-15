@@ -41,8 +41,8 @@
 
   * Version control: Git (+ GitHub classroom)
   * Programming language: Java 11
-  * Unit tests: JUnit (4.12, 5.5)
-  * Benchmarks: JMH
+  * Unit tests: JUnit (4.12, 5.5.2), Mockito 3.2.0
+  * Benchmarks: JMH 1.22
 
 ## Contact
 
