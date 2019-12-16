@@ -89,9 +89,9 @@ Whenever a vehicle is moving between intersections, it is making at most one rid
 
 ## Input data set
 
-### File format
+### Format
 
-The first line of the input file contains the following integer numbers separated by single spaces:
+The first line of the input contains the following integer numbers separated by single spaces:
 - R – number of rows of the grid (1 ≤ R ≤ 10 000)
 - C – number of columns of the grid (1 ≤ C ≤ 10 000)
 - F – number of vehicles in the fleet (1 ≤ F ≤ 1 000)
@@ -101,7 +101,7 @@ The first line of the input file contains the following integer numbers separate
 - D – distance fee (0 ≤ K ≤ 10)
 - T – number of steps in the simulation (1 ≤ T ≤ 10^9)
 
-N subsequent lines of the input file describe the individual rides, from ride 0 to ride N-1. Each line contains the following integer numbers separated by single spaces:
+N subsequent lines of the input describe the individual rides, from ride 0 to ride N-1. Each line contains the following integer numbers separated by single spaces:
 - a – the row of the start intersection (0 ≤ a < R)
 - b – the column of the start intersection (0 ≤ b < C)
 - x – the row of the finish intersection (0 ≤ x < R)
@@ -112,7 +112,7 @@ N subsequent lines of the input file describe the individual rides, from ride 0 
 
 The finish intersection is always different from the start intersection (the two can be in the same column, or in the same row, but not in the same column and in the same row).
 
-#### Input file example
+#### Input example
 
 | Line               | Description                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------|
@@ -124,11 +124,11 @@ The finish intersection is always different from the start intersection (the two
 
 ## Output
 
-At the end of your execution, you must produce an output file.
+At the end of your execution, you must produce an output on the standard output.
 
-### File format
+### Format
 
-The output file must contain:
+The output must contain:
 - C – The total score of the solution (calculation details explained below)
 - F lines, one for each vehicle in the fleet.
 
@@ -139,7 +139,7 @@ Each line describing the rides of a vehicle must contain the following integers 
 **Any ride can be assigned to a vehicle at most once.** That is, it is not allowed to assign the same ride to two or more different vehicles. It is also not allowed to assign the same ride to one vehicle more than once.
 It is not required to assign all rides to vehicles – some rides can be skipped.
 
-#### Output file example
+#### Output example
 
 | Line    | Description                               |
 |---------|-------------------------------------------|
@@ -159,7 +159,7 @@ Additionally, each ride which started exactly in its earliest allowed start step
 
 The total score is the sum of all points earned by all rides completed by all vehicles.
 
-For example, with the example input file and the example submission file above, there are two vehicles.
+For example, with the example input and the example output above, there are two vehicles.
 
 > Vehicle 0 handles one ride:
 > - ride 0, start at step 2, finish at step 6.
