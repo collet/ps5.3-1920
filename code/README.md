@@ -23,12 +23,11 @@ For each delivery, a script will:
     1. check the formatting of the output file
     1. check the correctness of the score
 
-The results of the delivery will be displayed [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+The results of the delivery will be displayed [here](../deliveries).
 For each output, the result for each file is given as follow:
 
 - `<nb_input> ok <score>`: the output file for input `nb_input` is well-formatted and the calculated score, `score`, is correct.
-- `<nb_input> nok 1`: the output file for input `nb_input` is well-formatted but the calculated score is incorrect.
-- `<nb_input> nok 2`: the output file for input `nb_input` is not well-formatted.
+- `<nb_input> nok <error_code>`: the output file for input `nb_input` when an error has been detected (error_code will be defined in the execution report).
 
 ## Benchmarks
 
