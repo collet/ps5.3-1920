@@ -153,7 +153,7 @@ In order for the submission to be accepted, it must follow the format requiremen
 
 ### Scoring
 
-Each ride completed before its latest finish earns the number of points equal to the ride's distance (distance between the start intersection and the finish intersection) times the distance fee, plus a constant fee, plus a bonus if the ride finishes on time.
+Each ride completed before its latest finish earns the number of points equal to the ride's distance (distance between the start intersection and the finish intersection) times the distance fee, plus a constant fee, plus a bonus if the ride starts on time.
 
 Additionally, each ride which started exactly in its earliest allowed start step gets an additional timeliness bonus of B.
 
