@@ -11,6 +11,8 @@ You have to be able to:
 - print a _valid_ output file on the **standard output**
 - use the benchmarking to evaluate the quality of your solutions
 
+[Here](https://fr.wikibooks.org/wiki/Programmation_Bash/Flux_et_redirections) is a link where you can find details on how to work with the standard input and output.
+
 You may use the 5 input files located in the `input_files` directory at the root of your repository.
 
 ## Delivery process
