@@ -21,7 +21,7 @@ For each delivery, a script will:
 
 1. Build your solution: `mvn clean package`
 1. For each input file:
-    1. execute your solution through `mvn exec:java@run` injecting the input file as stdin and storing the stdout in an output file
+    1. execute your solution through `mvn exec:java@run` injecting the input file as stdin and storing the stdout in an output file *(our script redirects stdin to inject each file and stdout to store the results in an appropriate output file)*
     1. check the formatting of the output file
     1. check the correctness of the score
 
