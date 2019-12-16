@@ -23,7 +23,7 @@ For each delivery, a script will:
     1. check the formatting of the output file
     1. check the correctness of the score
 
-The results of the delivery will be displayed [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+The results of the delivery will be displayed [here](../deliveries).
 For each output, the result for each file is given as follow:
 
 - `<nb_input> ok <score>`: the output file for input `nb_input` is well-formatted and the calculated score, `score`, is correct.
