@@ -5,10 +5,10 @@ Here are some key points on what you have to do to achieve the project.
 _NB: the list below is not exhaustive :)_
 
 You have to be able to:
-- read the input file on the **standard input**
+- read the input on the **standard input**
 - assign rides to vehicles
 - calculate the score for each ride
-- print a _valid_ output file on the **standard output**
+- print a _valid_ output on the **standard output**
 - use the benchmarking to evaluate the quality of your solutions
 
 [Here](https://fr.wikibooks.org/wiki/Programmation_Bash/Flux_et_redirections) is a link where you can find details on how to work with the standard input and output.
@@ -26,10 +26,10 @@ For each delivery, a script will:
     1. check the correctness of the score
 
 The results of the delivery will be displayed [here](../deliveries).
-For each output, the result for each file is given as follow:
+For each output, the result is given as follow:
 
-- `<nb_input> ok <score>`: the output file for input `nb_input` is well-formatted and the calculated score, `score`, is correct.
-- `<nb_input> nok <error_code>`: the output file for input `nb_input` when an error has been detected (error_code will be defined in the execution report).
+- `<nb_input> ok <score>`: the output corresponding to input `nb_input` is well-formatted and the calculated score, `score`, is correct.
+- `<nb_input> nok <error_code>`: the output corresponding to input `nb_input` when an error has been detected (error_code will be defined in the execution report).
 
 ## Benchmarks
 
