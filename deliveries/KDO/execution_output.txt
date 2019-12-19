@@ -1,4 +1,4 @@
-#  Started at :2019-12-19 18:00:59
+#  Started at :2019-12-19 21:19:24
 
 ### PS5.3 retriever
 
@@ -190,6 +190,7 @@
 # Opening project ZeCommiT
 # Checking out tag [KDO]: OK
 # Leaving project ZeCommiT
+
 
 ######
 #### Running exec
@@ -503,5 +504,5 @@
 # Leaving project ZeCommiT
 
 ## Report generation
-#  Ended at :2019-12-19 19:01:08
+#  Ended at :2019-12-19 21:37:15
 
