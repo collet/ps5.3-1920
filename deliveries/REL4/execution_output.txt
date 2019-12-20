@@ -1,0 +1,511 @@
+#  Started at :2019-12-20 12:00:00
+
+### PS5.3 retriever
+
+
+######
+#### Running retrieve
+######
+
+####
+## Handling DessinMagique [DessinMagique]
+####
+# Cloning project from remote repository: OK
+# Opening project DessinMagique
+# Checking out tag [REL4]: OK
+# Leaving project DessinMagique
+
+####
+## Handling Dovakhode [Dovakhode]
+####
+# Cloning project from remote repository: OK
+# Opening project Dovakhode
+# Checking out tag [REL4]: OK
+# Leaving project Dovakhode
+
+####
+## Handling GNFE [GNFE]
+####
+# Cloning project from remote repository: OK
+# Opening project GNFE
+# Checking out tag [REL4]: OK
+# Leaving project GNFE
+
+####
+## Handling Hamtaro [Hamtaro]
+####
+# Cloning project from remote repository: OK
+# Opening project Hamtaro
+# Checking out tag [REL4]: OK
+# Leaving project Hamtaro
+
+####
+## Handling JavaL [JavaL]
+####
+# Cloning project from remote repository: OK
+# Opening project JavaL
+# Checking out tag [REL4]: OK
+# Leaving project JavaL
+
+####
+## Handling JCorp [JCorp]
+####
+# Cloning project from remote repository: OK
+# Opening project JCorp
+# Checking out tag [REL4]: OK
+# Leaving project JCorp
+
+####
+## Handling JeanCodeVanDamme [JeanCodeVanDamme]
+####
+# Cloning project from remote repository: OK
+# Opening project JeanCodeVanDamme
+# Checking out tag [REL4]: OK
+# Leaving project JeanCodeVanDamme
+
+####
+## Handling LesArriereGrandsPapasSucres [LesArriereGrandsPapasSucres]
+####
+# Cloning project from remote repository: OK
+# Opening project LesArriereGrandsPapasSucres
+# Checking out tag [REL4]: OK
+# Leaving project LesArriereGrandsPapasSucres
+
+####
+## Handling LesBebesSucre [LesBebesSucre]
+####
+# Cloning project from remote repository: OK
+# Opening project LesBebesSucre
+# Checking out tag [REL4]: OK
+# Leaving project LesBebesSucre
+
+####
+## Handling LesGrandsPapasSucres [LesGrandsPapasSucres]
+####
+# Cloning project from remote repository: OK
+# Opening project LesGrandsPapasSucres
+# Checking out tag [REL4]: FAILURE
+## Abort [missing tag]
+# Leaving project LesGrandsPapasSucres
+
+####
+## Handling LesPapasSucre [LesPapasSucre]
+####
+# Cloning project from remote repository: OK
+# Opening project LesPapasSucre
+# Checking out tag [REL4]: OK
+# Leaving project LesPapasSucre
+
+####
+## Handling LesPetitsSucres [LesPetitsSucres]
+####
+# Cloning project from remote repository: OK
+# Opening project LesPetitsSucres
+# Checking out tag [REL4]: OK
+# Leaving project LesPetitsSucres
+
+####
+## Handling LesRescapesDeLaBattleDev [LesRescapesDeLaBattleDev]
+####
+# Cloning project from remote repository: OK
+# Opening project LesRescapesDeLaBattleDev
+# Checking out tag [REL4]: OK
+# Leaving project LesRescapesDeLaBattleDev
+
+####
+## Handling noName [noName]
+####
+# Cloning project from remote repository: OK
+# Opening project noName
+# Checking out tag [REL4]: OK
+# Leaving project noName
+
+####
+## Handling Oui [Oui]
+####
+# Cloning project from remote repository: OK
+# Opening project Oui
+# Checking out tag [REL4]: FAILURE
+## Abort [missing tag]
+# Leaving project Oui
+
+####
+## Handling ReignInProgramming [ReignInProgramming]
+####
+# Cloning project from remote repository: OK
+# Opening project ReignInProgramming
+# Checking out tag [REL4]: OK
+# Leaving project ReignInProgramming
+
+####
+## Handling StackPointers [StackPointers]
+####
+# Cloning project from remote repository: OK
+# Opening project StackPointers
+# Checking out tag [REL4]: OK
+# Leaving project StackPointers
+
+####
+## Handling StormBreakers [StormBreakers]
+####
+# Cloning project from remote repository: OK
+# Opening project StormBreakers
+# Checking out tag [REL4]: OK
+# Leaving project StormBreakers
+
+####
+## Handling Super [Super]
+####
+# Cloning project from remote repository: OK
+# Opening project Super
+# Checking out tag [REL4]: OK
+# Leaving project Super
+
+####
+## Handling Teamock [Teamock]
+####
+# Cloning project from remote repository: OK
+# Opening project Teamock
+# Checking out tag [REL4]: OK
+# Leaving project Teamock
+
+####
+## Handling TheATeam [TheATeam]
+####
+# Cloning project from remote repository: OK
+# Opening project TheATeam
+# Checking out tag [REL4]: OK
+# Leaving project TheATeam
+
+####
+## Handling VikTeam [VikTeam]
+####
+# Cloning project from remote repository: OK
+# Opening project VikTeam
+# Checking out tag [REL4]: OK
+# Leaving project VikTeam
+
+####
+## Handling ZeCommiT [ZeCommiT]
+####
+# Cloning project from remote repository: OK
+# Opening project ZeCommiT
+# Checking out tag [REL4]: OK
+# Leaving project ZeCommiT
+
+
+######
+#### Running exec
+######
+
+####
+## Handling DessinMagique [DessinMagique]
+####
+# Opening project DessinMagique
+# Git stamp: Date:   Thu Dec 19 15:25:14 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project DessinMagique
+
+####
+## Handling Dovakhode [Dovakhode]
+####
+# Opening project Dovakhode
+# Git stamp: Date:   Fri Dec 20 11:40:54 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project Dovakhode
+
+####
+## Handling GNFE [GNFE]
+####
+# Opening project GNFE
+# Git stamp: Date:   Fri Dec 20 10:42:45 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project GNFE
+
+####
+## Handling Hamtaro [Hamtaro]
+####
+# Opening project Hamtaro
+# Git stamp: Date:   Fri Dec 20 11:53:32 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project Hamtaro
+
+####
+## Handling JavaL [JavaL]
+####
+# Opening project JavaL
+# Git stamp: Date:   Fri Dec 20 00:43:27 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project JavaL
+
+####
+## Handling JCorp [JCorp]
+####
+# Opening project JCorp
+# Git stamp: Date:   Fri Dec 20 11:54:38 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project JCorp
+
+####
+## Handling JeanCodeVanDamme [JeanCodeVanDamme]
+####
+# Opening project JeanCodeVanDamme
+# Git stamp: Date:   Fri Dec 20 10:44:05 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project JeanCodeVanDamme
+
+####
+## Handling LesArriereGrandsPapasSucres [LesArriereGrandsPapasSucres]
+####
+# Opening project LesArriereGrandsPapasSucres
+# Git stamp: Date:   Fri Dec 20 01:15:03 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project LesArriereGrandsPapasSucres
+
+####
+## Handling LesBebesSucre [LesBebesSucre]
+####
+# Opening project LesBebesSucre
+# Git stamp: Date:   Thu Dec 19 16:10:47 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project LesBebesSucre
+
+####
+## Handling LesGrandsPapasSucres [LesGrandsPapasSucres]
+####
+# Opening project LesGrandsPapasSucres
+Does not execute because previous failure
+# Leaving project LesGrandsPapasSucres
+
+####
+## Handling LesPapasSucre [LesPapasSucre]
+####
+# Opening project LesPapasSucre
+# Git stamp: Date:   Fri Dec 20 03:51:03 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project LesPapasSucre
+
+####
+## Handling LesPetitsSucres [LesPetitsSucres]
+####
+# Opening project LesPetitsSucres
+# Git stamp: Date:   Fri Dec 20 11:49:11 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project LesPetitsSucres
+
+####
+## Handling LesRescapesDeLaBattleDev [LesRescapesDeLaBattleDev]
+####
+# Opening project LesRescapesDeLaBattleDev
+# Git stamp: Date:   Fri Dec 20 11:53:47 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project LesRescapesDeLaBattleDev
+
+####
+## Handling noName [noName]
+####
+# Opening project noName
+# Git stamp: Date:   Fri Dec 20 11:42:24 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project noName
+
+####
+## Handling Oui [Oui]
+####
+# Opening project Oui
+Does not execute because previous failure
+# Leaving project Oui
+
+####
+## Handling ReignInProgramming [ReignInProgramming]
+####
+# Opening project ReignInProgramming
+# Git stamp: Date:   Fri Dec 20 11:21:22 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project ReignInProgramming
+
+####
+## Handling StackPointers [StackPointers]
+####
+# Opening project StackPointers
+# Git stamp: Date:   Fri Dec 20 11:25:16 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project StackPointers
+
+####
+## Handling StormBreakers [StormBreakers]
+####
+# Opening project StormBreakers
+# Git stamp: Date:   Fri Dec 20 10:10:45 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project StormBreakers
+
+####
+## Handling Super [Super]
+####
+# Opening project Super
+# Git stamp: Date:   Fri Dec 20 11:14:34 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project Super
+
+####
+## Handling Teamock [Teamock]
+####
+# Opening project Teamock
+# Git stamp: Date:   Fri Dec 20 11:44:57 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project Teamock
+
+####
+## Handling TheATeam [TheATeam]
+####
+# Opening project TheATeam
+# Git stamp: Date:   Fri Dec 20 11:30:55 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project TheATeam
+
+####
+## Handling VikTeam [VikTeam]
+####
+# Opening project VikTeam
+# Git stamp: Date:   Fri Dec 20 11:47:28 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project VikTeam
+
+####
+## Handling ZeCommiT [ZeCommiT]
+####
+# Opening project ZeCommiT
+# Git stamp: Date:   Fri Dec 20 11:17:43 2019 +0100
+# Building using Maven [clean package]: OK
+# Sample input1
+# Sample input2
+# Sample input3
+# Sample input4
+# Sample input5
+## \o/ Execution complete. Champaign! \o/
+# Leaving project ZeCommiT
+
+## Report generation
+#  Ended at :2019-12-20 12:17:29
+
